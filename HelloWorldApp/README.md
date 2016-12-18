@@ -1,9 +1,15 @@
-#readmetest
+#HelloWorldApp
 
-if you want to run this code you can use this command,
+## Usage
 
+if you want to run this code, you can use these commands:
+
+<strong>Compile</strong>
+<pre>
 javac com/linux/kerami/Test.java
+</pre>
 
-after that
-
+<strong>Run</strong>
+<pre>
 java -cp . com.linux.kerami.Test
+</pre>
