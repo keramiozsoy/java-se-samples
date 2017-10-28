@@ -10,6 +10,11 @@ public class Bicycle {
 		gear = gear + 1;
 	}
 	
+	public void changeBicycleColor(){
+		String bicycleName = "RED";
+		System.out.println(bicycleName);
+	}
+	
 	public int getCurrentSpeed() {
 		return currentSpeed;
 	}

@@ -41,7 +41,17 @@ public class Test {
 		System.out.println("Bicycle b4 gear incremented : " + b4.gear); // You should not use it this way
 		System.out.println("-----------------------------------------------");
 		/* Class Variable(Static Fields) [END] */
+		/* Local Variable [BEGIN] */
 		
+		/**
+		 * bicycleName could not access with Bicycle class referance. It is local variable can be use in own method.
+		 */
+		
+		Bicycle b5 = new Bicycle();
+		b5.changeBicycleColor();
+//	    b5.bicycleName; // it is a error. bicycleName cannot be resolved or is not a field 
+		System.out.println("-----------------------------------------------");
+		/* Local Variable [END] */
 		
 		
 
